@@ -1,12 +1,12 @@
 import { GiCampingTent, GiCampfire } from "react-icons/gi";
 import { MdDinnerDining, MdWbSunny, MdLandscape, MdPeople } from "react-icons/md";
 import { TbBread, TbBed } from "react-icons/tb";
-import { FaCarAlt, FaDog, FaRestroom } from "react-icons/fa";
+import { FaCarAlt,  FaRestroom } from "react-icons/fa";
 import { RiMoneyDollarCircleLine } from "react-icons/ri";
 
 const includes = [
-    { label: "Tent Stay (2/3 Sharing)", icon: <GiCampingTent size={32} /> },
-    { label: "Comfortable Bedding (Pillows, Blankets, Sheets)", icon: <TbBed size={32} /> },
+    { label: "Tent Stay (2,3,4 Sharing)", icon: <GiCampingTent size={32} /> },
+    { label: "Sleeping bags with comfortable tent mats", icon: <TbBed size={32} /> },
     { label: "Dinner (Delicious Home-style Food)", icon: <MdDinnerDining size={32} /> },
     { label: "Breakfast (MAP Plan Only)", icon: <TbBread size={32} /> },
     { label: "Bonfire (Available at Extra Cost)", icon: <GiCampfire size={32} /> },
@@ -14,7 +14,6 @@ const includes = [
     { label: "Peaceful Mountain Location", icon: <MdLandscape size={32} /> },
     { label: "Common Western Washrooms", icon: <FaRestroom size={32} /> },
     { label: "Free Parking", icon: <FaCarAlt size={32} /> },
-    { label: "Pet-Friendly", icon: <FaDog size={32} /> },
     { label: "Friendly Local Hosts", icon: <MdPeople size={32} /> },
     { label: "No Hidden Charges", icon: <RiMoneyDollarCircleLine size={32} /> },
 ];

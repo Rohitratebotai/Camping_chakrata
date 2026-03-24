@@ -29,12 +29,12 @@ const Footer: React.FC = () => {
                     <h3 className="text-white text-lg font-semibold">Contact</h3>
                     {/* Email */}
                     <a
-                        href="mailto:joshivishal498@gmail.com"
+                        href="mailto:vishalsuryacamping@gmail.com"
                         className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"
                         aria-label="Send email to Pawna Lake Camp"
                     >
                         <MdEmail className="text-lg" />
-                        joshivishal498@gmail.com
+                        vishalsuryacamping@gmail.com
                     </a>
 
                     {/* Phone */}

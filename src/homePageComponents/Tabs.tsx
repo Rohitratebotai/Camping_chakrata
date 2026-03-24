@@ -166,8 +166,8 @@ const PawnaLakeTabs: React.FC = () => {
 
                         <p>
                             Perfect for couples, friends, and families looking to unwind in nature, away from crowded
-                            tourist spots. Enjoy bonfire nights, fresh mountain air, and a calm environment surrounded
-                            by Himalayan beauty.
+                            tourist spots. Enjoy bonfire nights, fresh mountain air, beautiful stargazing under clear skies,
+                            and a calm environment surrounded by Himalayan beauty.
                         </p>
 
                         <div className="bg-gray-100 p-6 rounded-lg my-6">
@@ -187,7 +187,9 @@ const PawnaLakeTabs: React.FC = () => {
                             {[
                                 "Tiger Fall ⭐ 4.5 — One of India’s tallest waterfalls (312 ft), about 1 hour away",
                                 "Chakrata View Point ⭐ 4.7 — Stunning panoramic Himalayan views",
-                                "Sunrise & Sunset Point ⭐ 4.9 — Best golden hour spot in Chakrata"
+                                "Sunrise & Sunset Point ⭐ 4.9 — Best golden hour spot in Chakrata",
+                                "Moila Top ⭐ 4.6 — Scenic trek with breathtaking views and Budher caves nearby",
+                                "Deoban ⭐ 4.8 — Dense forest area with majestic Himalayan views and peaceful surroundings"
                             ].map((place, index) => (
                                 <li key={index} className="border-b border-gray-200 pb-3 last:border-b-0">
                                     <span className="text-lg">{index + 1}. </span>
